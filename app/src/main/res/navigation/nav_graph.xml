@@ -11,12 +11,17 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_blankFragment"
-            app:destination="@id/blankFragment" />
+            android:id="@+id/action_loginFragment_to_rigisterFragment"
+            app:destination="@id/rigisterFragment" />
     </fragment>
     <fragment
         android:id="@+id/blankFragment"
         android:name="com.example.ass2.BlankFragment"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/rigisterFragment"
+        android:name="com.example.ass2.RigisterFragment"
+        android:label="fragment_rigister"
+        tools:layout="@layout/fragment_rigister" />
 </navigation>
