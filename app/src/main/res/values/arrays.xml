@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="location">
+        <item>Location</item>
+        <item>Clayton</item>
+        <item>BoxHill</item>
+    </string-array>
+
+    <string-array name="rank">
+        <item>Rank</item>
+        <item>low to high</item>
+        <item>high to low</item>
+    </string-array>
+
+</resources>

@@ -27,4 +27,18 @@
         android:name="com.example.ass2.HomeScreen"
         android:label="fragment_home_screen"
         tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:name="com.example.ass2.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/Restaurant"
+        android:name="com.example.ass2.Restaurant"
+        android:label="fragment_dish_details"
+        tools:layout="@layout/fragment_dish_details" />
+    <fragment
+        android:id="@+id/reportScreen"
+        android:name="com.example.ass2.ReportScreen"
+        android:label="fragment_report_screen"
+        tools:layout="@layout/fragment_report_screen" />
 </navigation>
