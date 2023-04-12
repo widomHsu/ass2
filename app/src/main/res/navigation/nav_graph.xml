@@ -3,25 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/Loginscreen">
 
     <fragment
-        android:id="@+id/loginFragment"
+        android:id="@+id/Loginscreen"
         android:name="com.example.ass2.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_rigisterFragment"
-            app:destination="@id/rigisterFragment" />
+            app:destination="@id/DataEntryscreen" />
+        <action
+            android:id="@+id/action_Loginscreen_to_HomeScreen"
+            app:destination="@id/HomeScreen" />
     </fragment>
     <fragment
-        android:id="@+id/blankFragment"
-        android:name="com.example.ass2.BlankFragment"
-        android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
-    <fragment
-        android:id="@+id/rigisterFragment"
+        android:id="@+id/DataEntryscreen"
         android:name="com.example.ass2.RigisterFragment"
         android:label="fragment_rigister"
-        tools:layout="@layout/fragment_rigister" />
+        tools:layout="@layout/fragment_data_entry_screen" />
+    <fragment
+        android:id="@+id/HomeScreen"
+        android:name="com.example.ass2.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" />
 </navigation>

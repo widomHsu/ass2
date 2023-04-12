@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">ass2</string>
     <!-- Strings related to login -->
+    <string name="location">Location</string>
     <string name="prompt_name">Name</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_comfirm">comfirm</string>
+    <string name="prompt_password2">Confirm Password</string>
+    <string name="action_comfirm">Register</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_register">register</string>
     <string name="action_sign_in_short">Sign in</string>
