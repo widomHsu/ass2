@@ -35,12 +35,12 @@
 
 
     <TextView
-        android:layout_width="149dp"
-        android:layout_height="65dp"
-        android:text="restaurant"
+        android:layout_width="160dp"
+        android:layout_height="78dp"
+        android:text="Restaurant Name"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="107dp" />
+        tools:layout_editor_absoluteY="104dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

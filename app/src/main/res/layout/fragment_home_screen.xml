@@ -22,10 +22,10 @@
         android:layout_height="wrap_content"
         android:text="Button"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="105dp"
-        tools:text="More"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="107dp"
+        tools:text="More" />
 
     <Button
         android:id="@+id/button5"
@@ -69,9 +69,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Search"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="40dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="41dp" />
 
     <Button
         android:id="@+id/button2"
@@ -97,22 +97,23 @@
         tools:ignore="MissingConstraints"/>
 
     <ListView
-        android:layout_width="366dp"
-        android:layout_height="557dp"
+        android:layout_width="365dp"
+        android:layout_height="454dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="218dp"
-        tools:ignore="MissingConstraints"/>
+        tools:layout_editor_absoluteY="218dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
-        android:layout_width="415dp"
-        android:layout_height="32dp"
+        android:layout_width="397dp"
+        android:layout_height="38dp"
         android:layout_gravity="bottom"
         app:labelVisibilityMode="labeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/navigation_menu"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="798dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="691dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

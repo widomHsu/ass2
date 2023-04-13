@@ -6,10 +6,6 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/navigation_activity"
-        android:title="Activity" />
-
-    <item
         android:id="@+id/navigation_trolley"
         android:title="Trolley" />
 

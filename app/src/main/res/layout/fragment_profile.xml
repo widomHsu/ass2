@@ -8,22 +8,48 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:text="Personal Address"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="342dp" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/Claire"
+        android:layout_width="138dp"
+        android:layout_height="93dp"
+        android:text="User Name"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="-33dp"
-        tools:layout_editor_absoluteY="-34dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="54dp" />
 
     <ImageView
-        android:id="@+id/Claire"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/Claire"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="123dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="46dp" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="415dp"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/navigation_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:text="Personal Report"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="230dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

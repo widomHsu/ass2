@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DishesScreen">
+
+
+    <EditText
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:hint="Enter your comment"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="102dp"
+        android:layout_height="58dp"
+        android:text="DishesName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="124dp"
+        android:layout_height="110dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:src="@android:drawable/ic_menu_share"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="350dp"
+        android:layout_height="165dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Dishes description"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <ListView
+        android:layout_width="347dp"
+        android:layout_height="147dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add comment"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer comments"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
